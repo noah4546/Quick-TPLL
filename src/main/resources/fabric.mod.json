@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"ca.tnoah.quicktpll.ExampleMod"
+          "ca.tnoah.quicktpll.QuickTpll"
 		]
 	},
 	"mixins": [

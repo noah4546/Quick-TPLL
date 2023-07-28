@@ -3,7 +3,7 @@
 	"package": "ca.tnoah.quicktpll.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+      "QuickTpllMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

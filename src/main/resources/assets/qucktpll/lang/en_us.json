@@ -1,0 +1,6 @@
+{
+  "category.quicktpll.commands": "Quick TPLL",
+  "key.quicktpll.tpll": "Quick TPLL",
+  "error.quicktpll.invalid_clipboard": "Invalid clipboard value!",
+  "error.quicktpll.invalid_lat_lng": "Invalid lat,lng!"
+}
