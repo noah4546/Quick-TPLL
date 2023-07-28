@@ -36,7 +36,7 @@ public class TpllCommand {
     }
 
     private void sendTPLLCommand(ClientPlayerEntity player, String coords) {
-        player.networkHandler.sendChatCommand("/tpll " + coords);
+        player.networkHandler.sendChatCommand("tpll " + coords);
     }
 
     private String convertToGoogleMaps(String coords) {
@@ -63,7 +63,7 @@ public class TpllCommand {
         double second = Double.parseDouble(split[2]);
         double ms = Double.parseDouble(split[3]);
 
-        degree += (minute / 60.0) + (second / 3600.0) + (ms / 60000.0);
+        degree += (minute / 60.0) + (second / 3600.0) + (ms / 3600000.0);
 
         return String.valueOf(degree);
     }

@@ -3,9 +3,9 @@
 	"id": "qucktpll",
 	"version": "${version}",
 	"name": "QuckTpll",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod allows you to execute tpll commands via your clipboard.",
 	"authors": [
-		"Me!"
+		"Noah Tomkins"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
